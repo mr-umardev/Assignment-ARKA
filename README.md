@@ -1,7 +1,13 @@
 # Task 2 (Django) - Student API Implementation
 
-This image confirms the requirements for Task 2.
+This project implements the required Django REST API for managing student records.
 
-![Task 2 Assignment Requirements](screenshot-1.png)
+## Documentation Screenshots
 
-![API Endpoint Confirmation](screenshot-2.png)
+Below are the screenshots used to document the task requirements and verify the implementation.
+
+### Task 2 Assignment Requirements
+![Assignment Requirements](Screenshot-1.png)
+
+### API Endpoint Confirmation
+![API Endpoint Confirmation](Screenshot-2.png)
