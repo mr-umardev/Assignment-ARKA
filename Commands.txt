@@ -1,0 +1,19 @@
+python -m venv venv
+.\venv\Scripts\activate
+pip install django djangorestframework
+python -c "import django"
+
+django-admin startproject myproject
+cd myproject
+python manage.py startapp students
+
+# --- MANUAL FILE EDITS (settings.py, models.py, urls.py, views.py, serializers.py) ---
+
+python manage.py makemigrations students
+python manage.py migrate
+python manage.py runserver 
+# Server runs on: http://127.0.0.1:8000/
+
+echo "Check main endpoint:" http://127.0.0.1:8000/api/students/
+
+echo "Check bonus endpoint:" http://127.0.0.1:8000/api/students/adults/
